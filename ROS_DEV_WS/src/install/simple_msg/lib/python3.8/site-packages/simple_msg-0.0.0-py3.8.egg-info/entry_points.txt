@@ -1,0 +1,4 @@
+[console_scripts]
+my_node = simple_msg.my_node:main
+my_subscriber_node = simple_msg.my_subscriber_node:main
+

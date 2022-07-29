@@ -1,0 +1,21 @@
+[2.439s] Invoking command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/ROS-TCP-Endpoint-main-ros2': PYTHONPATH=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/ros_tcp_endpoint/build install --prefix /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint --record /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/ros_tcp_endpoint/install.log --single-version-externally-managed
+[3.026s] running egg_info
+[3.031s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[3.036s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[3.041s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[3.045s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[3.048s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[3.148s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[3.219s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[3.222s] running build
+[3.223s] running build_py
+[3.355s] running install
+[3.359s] running install_lib
+[3.685s] running install_data
+[3.713s] running install_egg_info
+[3.721s] removing '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info' (and everything under it)
+[3.764s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info
+[3.948s] running install_scripts
+[3.993s] Installing default_server_endpoint script to /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[4.003s] writing list of installed files to '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/ros_tcp_endpoint/install.log'
+[4.030s] Invoked command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/ROS-TCP-Endpoint-main-ros2' returned '0': PYTHONPATH=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/ros_tcp_endpoint/build install --prefix /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint --record /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/ros_tcp_endpoint/install.log --single-version-externally-managed

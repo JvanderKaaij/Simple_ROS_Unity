@@ -1,0 +1,20 @@
+[0.079s] Invoking command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simpleInterface': CMAKE_PREFIX_PATH=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/opt/ros/foxy /usr/bin/cmake /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simpleInterface -DCMAKE_INSTALL_PREFIX=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleInterface
+[0.127s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.239s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.762s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.020s] WARNING: Package name "simpleInterface" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.035s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.054s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.058s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.809s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.830s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[5.831s]   rosidl_generate_interfaces() the passed file 'msg/Num.msg' doesn't exist
+[5.832s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[5.833s]   '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simpleInterface'
+[5.833s] Call Stack (most recent call first):
+[5.834s]   CMakeLists.txt:37 (rosidl_generate_interfaces)
+[5.835s] 
+[5.835s] 
+[5.842s] -- Configuring incomplete, errors occurred!
+[5.843s] See also "/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simpleInterface/CMakeFiles/CMakeOutput.log".
+[5.863s] Invoked command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simpleInterface' returned '1': CMAKE_PREFIX_PATH=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/opt/ros/foxy /usr/bin/cmake /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simpleInterface -DCMAKE_INSTALL_PREFIX=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleInterface

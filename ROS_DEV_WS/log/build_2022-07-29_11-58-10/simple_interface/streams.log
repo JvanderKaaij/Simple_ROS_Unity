@@ -1,0 +1,21 @@
+[0.075s] Invoking command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/simple_interface': /usr/bin/cmake /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simple_interface -DCMAKE_INSTALL_PREFIX=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simple_interface
+[1.097s] CMake Error at CMakeLists.txt:19 (find_package):
+[1.098s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.099s]   has asked CMake to find a package configuration file provided by
+[1.099s]   "ament_cmake", but CMake did not find one.
+[1.100s] 
+[1.101s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.102s]   any of the following names:
+[1.102s] 
+[1.103s]     ament_cmakeConfig.cmake
+[1.104s]     ament_cmake-config.cmake
+[1.105s] 
+[1.105s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.106s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.107s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.108s]   has been installed.
+[1.108s] 
+[1.109s] 
+[1.109s] -- Configuring incomplete, errors occurred!
+[1.110s] See also "/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/simple_interface/CMakeFiles/CMakeOutput.log".
+[1.119s] Invoked command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/simple_interface' returned '1': /usr/bin/cmake /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simple_interface -DCMAKE_INSTALL_PREFIX=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simple_interface

@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from simple_interface/msg/Simple.msg
+// generated code does not contain a copyright notice
+
+
+module simple_interface {
+  module msg {
+    struct Simple {
+      string message;
+    };
+  };
+};

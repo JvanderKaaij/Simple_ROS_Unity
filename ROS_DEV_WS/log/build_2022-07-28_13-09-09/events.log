@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.002348] (simpleMSG) JobQueued: {'identifier': 'simpleMSG', 'dependencies': OrderedDict()}
+[0.002714] (simpleMSG) JobStarted: {'identifier': 'simpleMSG'}
+[0.098496] (-) TimerEvent: {}
+[0.199285] (-) TimerEvent: {}
+[0.299989] (-) TimerEvent: {}
+[0.400616] (-) TimerEvent: {}
+[0.501243] (-) TimerEvent: {}
+[0.601883] (-) TimerEvent: {}
+[0.702472] (-) TimerEvent: {}
+[0.803009] (-) TimerEvent: {}
+[0.903855] (-) TimerEvent: {}
+[1.004381] (-) TimerEvent: {}
+[1.105055] (-) TimerEvent: {}
+[1.205607] (-) TimerEvent: {}
+[1.306148] (-) TimerEvent: {}
+[1.406737] (-) TimerEvent: {}
+[1.507299] (-) TimerEvent: {}
+[1.607941] (-) TimerEvent: {}
+[1.708498] (-) TimerEvent: {}
+[1.809554] (-) TimerEvent: {}
+[1.877921] (simpleMSG) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/simpleMSG', 'build', '--build-base', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/simpleMSG/build', 'install', '--prefix', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG', '--record', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/simpleMSG/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simpleMSG', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'joey', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'WT_PROFILE_ID': '{5a069d55-87bd-57cf-8a07-2726b203d3e5}', 'HOME': '/home/joey', 'OLDPWD': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'COLCON_PREFIX_PATH': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'joey', 'NAME': 'VIVE-PC', 'WSL_INTEROP': '/run/WSL/58_interop', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Oculus/Support/oculus-runtime:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Program Files/Git/cmd:/mnt/d/Program Files/Git/mingw64/bin:/mnt/d/Program Files/Git/usr/bin:/mnt/d/Users/Sandro Massa/Programs/Python37/Scripts/:/mnt/d/Users/Sandro Massa/Programs/Python37/:/mnt/d/Users/Sandro Massa/Code/vtk-git/install-8.1.2/bin:/mnt/d/Users/Sandro Massa/Programs/Python37/Lib/site-packages:/mnt/d/Users/Sandro Massa/Programs/Python37/Lib/site-packages/vtk:/mnt/d/yazhou/cmake/cmake-3.23.1/bin:/mnt/d/yazhou/Archive_Master_Thesis/Code:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Go/bin:/mnt/c/Users/Joey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Users/Joey/go/bin:/mnt/d/UserProjects/Joey/anaconda3/condabin:/snap/bin', 'WT_SESSION': '509dfe3b-f755-4f6a-adad-6d1d2a691929', 'DISPLAY': '172.17.240.1:0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/simpleMSG', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION::WT_PROFILE_ID'}, 'shell': False}
+[1.909692] (-) TimerEvent: {}
+[2.010267] (-) TimerEvent: {}
+[2.110858] (-) TimerEvent: {}
+[2.211344] (-) TimerEvent: {}
+[2.311860] (-) TimerEvent: {}
+[2.412385] (-) TimerEvent: {}
+[2.512941] (-) TimerEvent: {}
+[2.579467] (simpleMSG) StdoutLine: {'line': b'running egg_info\n'}
+[2.585890] (simpleMSG) StdoutLine: {'line': b'writing ../../build/simpleMSG/simpleMSG.egg-info/PKG-INFO\n'}
+[2.593427] (simpleMSG) StdoutLine: {'line': b'writing dependency_links to ../../build/simpleMSG/simpleMSG.egg-info/dependency_links.txt\n'}
+[2.601079] (simpleMSG) StdoutLine: {'line': b'writing entry points to ../../build/simpleMSG/simpleMSG.egg-info/entry_points.txt\n'}
+[2.606868] (simpleMSG) StdoutLine: {'line': b'writing requirements to ../../build/simpleMSG/simpleMSG.egg-info/requires.txt\n'}
+[2.610235] (simpleMSG) StdoutLine: {'line': b'writing top-level names to ../../build/simpleMSG/simpleMSG.egg-info/top_level.txt\n'}
+[2.613054] (-) TimerEvent: {}
+[2.714413] (-) TimerEvent: {}
+[2.725356] (simpleMSG) StdoutLine: {'line': b"reading manifest file '../../build/simpleMSG/simpleMSG.egg-info/SOURCES.txt'\n"}
+[2.814544] (-) TimerEvent: {}
+[2.822167] (simpleMSG) StdoutLine: {'line': b"writing manifest file '../../build/simpleMSG/simpleMSG.egg-info/SOURCES.txt'\n"}
+[2.825311] (simpleMSG) StdoutLine: {'line': b'running build\n'}
+[2.832476] (simpleMSG) StdoutLine: {'line': b'running build_py\n'}
+[2.839783] (simpleMSG) StdoutLine: {'line': b'copying simpleMSG/my_node.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/simpleMSG/build/lib/simpleMSG\n'}
+[2.870500] (simpleMSG) StdoutLine: {'line': b'running install\n'}
+[2.874587] (simpleMSG) StdoutLine: {'line': b'running install_lib\n'}
+[2.914673] (-) TimerEvent: {}
+[2.925473] (simpleMSG) StdoutLine: {'line': b'copying /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/simpleMSG/build/lib/simpleMSG/my_node.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages/simpleMSG\n'}
+[3.010377] (simpleMSG) StdoutLine: {'line': b'byte-compiling /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages/simpleMSG/my_node.py to my_node.cpython-38.pyc\n'}
+[3.014794] (-) TimerEvent: {}
+[3.063939] (simpleMSG) StdoutLine: {'line': b'running install_data\n'}
+[3.090446] (simpleMSG) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.100052] (simpleMSG) StdoutLine: {'line': b"removing '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages/simpleMSG-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.114922] (-) TimerEvent: {}
+[3.158952] (simpleMSG) StdoutLine: {'line': b'Copying ../../build/simpleMSG/simpleMSG.egg-info to /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages/simpleMSG-0.0.0-py3.8.egg-info\n'}
+[3.215060] (-) TimerEvent: {}
+[3.315656] (-) TimerEvent: {}
+[3.390239] (simpleMSG) StdoutLine: {'line': b'running install_scripts\n'}
+[3.415771] (-) TimerEvent: {}
+[3.440599] (simpleMSG) StdoutLine: {'line': b'Installing my_node script to /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/simpleMSG\n'}
+[3.454421] (simpleMSG) StdoutLine: {'line': b"writing list of installed files to '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/simpleMSG/install.log'\n"}
+[3.496130] (simpleMSG) CommandEnded: {'returncode': 0}
+[3.515905] (-) TimerEvent: {}
+[3.616488] (-) TimerEvent: {}
+[3.717079] (-) TimerEvent: {}
+[3.771796] (simpleMSG) JobEnded: {'identifier': 'simpleMSG', 'rc': 0}
+[3.780637] (-) EventReactorShutdown: {}

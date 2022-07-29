@@ -1,0 +1,113 @@
+[1.849s] Invoking command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface -- -j8 -l8
+[2.338s] [  3%] Built target simple_interface__cpp
+[2.413s] [ 12%] Built target simple_interface__rosidl_generator_c
+[2.588s] [ 25%] Built target simple_interface__rosidl_typesupport_cpp
+[2.598s] [ 38%] Built target simple_interface__rosidl_typesupport_introspection_cpp
+[2.603s] [ 41%] Built target simple_interface__rosidl_typesupport_fastrtps_cpp
+[2.705s] [ 51%] Built target simple_interface__rosidl_typesupport_c
+[2.752s] [ 61%] Built target simple_interface__rosidl_typesupport_introspection_c
+[2.903s] [ 70%] Built target simple_interface__rosidl_typesupport_fastrtps_c
+[3.097s] [ 70%] Built target simple_interface
+[3.340s] [ 74%] Built target simple_interface__py
+[3.636s] [ 80%] Built target simple_interface__python
+[3.817s] [ 93%] Built target simple_interface__rosidl_typesupport_introspection_c__pyext
+[3.819s] [ 93%] Built target simple_interface__rosidl_typesupport_c__pyext
+[3.863s] [100%] Built target simple_interface__rosidl_typesupport_fastrtps_c__pyext
+[4.010s] Invoked command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface -- -j8 -l8
+[5.010s] Invoking command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/opt/ros/foxy /usr/bin/cmake --install /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface
+[5.101s] -- Install configuration: ""
+[5.125s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/ament_index/resource_index/rosidl_interfaces/simple_interface
+[5.137s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface
+[5.154s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg
+[5.174s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail
+[5.203s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__functions.c
+[5.226s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__functions.h
+[5.249s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__struct.h
+[5.270s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__type_support.h
+[5.291s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/rosidl_generator_c__visibility_control.h
+[5.311s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/simple.h
+[5.324s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/environment/library_path.sh
+[5.341s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/environment/library_path.dsv
+[5.377s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_generator_c.so
+[5.418s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface
+[5.434s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg
+[5.454s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail
+[5.482s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__rosidl_typesupport_fastrtps_c.h
+[5.502s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.543s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_fastrtps_c.so
+[5.585s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface
+[5.601s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg
+[5.622s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail
+[5.648s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/dds_fastrtps
+[5.685s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__rosidl_typesupport_fastrtps_cpp.hpp
+[5.700s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.734s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_fastrtps_cpp.so
+[5.768s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface
+[5.781s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg
+[5.798s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail
+[5.824s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__rosidl_typesupport_introspection_c.h
+[5.843s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__type_support.c
+[5.860s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.893s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_introspection_c.so
+[5.952s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_c.so
+[5.982s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface
+[5.996s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg
+[6.013s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail
+[6.039s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__builder.hpp
+[6.059s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__struct.hpp
+[6.078s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__traits.hpp
+[6.095s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/simple.hpp
+[6.104s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface
+[6.119s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg
+[6.136s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail
+[6.161s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__rosidl_typesupport_introspection_cpp.hpp
+[6.181s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__type_support.cpp
+[6.212s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_introspection_cpp.so
+[6.266s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_cpp.so
+[6.304s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/environment/pythonpath.sh
+[6.318s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/environment/pythonpath.dsv
+[6.336s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/__init__.py
+[6.716s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/msg
+[6.737s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/msg/_simple.py
+[6.753s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/msg/_simple_s.c
+[6.770s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/msg/__init__.py
+[6.813s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/simple_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[6.885s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/simple_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[6.958s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/simple_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[7.020s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__python.so
+[7.059s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/msg/Simple.idl
+[7.074s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/msg/Simple.msg
+[7.095s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/ament_index/resource_index/package_run_dependencies/simple_interface
+[7.117s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/ament_index/resource_index/parent_prefix_path/simple_interface
+[7.128s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/environment/ament_prefix_path.sh
+[7.141s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/environment/ament_prefix_path.dsv
+[7.153s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/environment/path.sh
+[7.167s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/environment/path.dsv
+[7.180s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/local_setup.bash
+[7.193s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/local_setup.sh
+[7.205s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/local_setup.zsh
+[7.218s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/local_setup.dsv
+[7.230s] -- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/package.dsv
+[7.285s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/ament_index/resource_index/packages/simple_interface
+[7.316s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_generator_cExport.cmake
+[7.336s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_generator_cExport-noconfig.cmake
+[7.366s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_typesupport_introspection_cExport.cmake
+[7.386s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.416s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_typesupport_cExport.cmake
+[7.437s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_typesupport_cExport-noconfig.cmake
+[7.468s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_generator_cppExport.cmake
+[7.499s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_typesupport_introspection_cppExport.cmake
+[7.518s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.549s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_typesupport_cppExport.cmake
+[7.568s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[7.581s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/rosidl_cmake-extras.cmake
+[7.596s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.609s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[7.623s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/ament_cmake_export_targets-extras.cmake
+[7.637s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.652s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.667s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.681s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interfaceConfig.cmake
+[7.692s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interfaceConfig-version.cmake
+[7.705s] -- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/package.xml
+[7.718s] Invoked command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/opt/ros/foxy /usr/bin/cmake --install /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface

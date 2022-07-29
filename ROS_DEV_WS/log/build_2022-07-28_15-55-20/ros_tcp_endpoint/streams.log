@@ -1,0 +1,38 @@
+[1.598s] Invoking command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/ROS-TCP-Endpoint-main-ros2': PYTHONPATH=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/ros_tcp_endpoint/build install --prefix /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint --record /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/ros_tcp_endpoint/install.log --single-version-externally-managed
+[2.201s] Traceback (most recent call last):
+[2.208s]   File "setup.py", line 3, in <module>
+[2.208s]     from setuptools import setup
+[2.209s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 17, in <module>
+[2.210s]     import setuptools.version
+[2.210s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[2.211s]     import pkg_resources
+[2.212s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3254, in <module>
+[2.212s]     def _initialize_master_working_set():
+[2.213s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3237, in _call_aside
+[2.214s]     f(*args, **kwargs)
+[2.215s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3289, in _initialize_master_working_set
+[2.217s]     list(map(working_set.add_entry, sys.path))
+[2.218s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 624, in add_entry
+[2.218s]     for dist in find_distributions(entry, True):
+[2.219s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2066, in find_on_path
+[2.220s]     for dist in factory(fullpath):
+[2.220s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2135, in distributions_from_metadata
+[2.221s]     yield Distribution.from_location(
+[2.221s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2592, in from_location
+[2.222s]     return cls(
+[2.223s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2996, in _reload_version
+[2.223s]     md_version = self._get_version()
+[2.224s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2774, in _get_version
+[2.225s]     version = _version_from_file(lines)
+[2.225s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2558, in _version_from_file
+[2.226s]     line = next(iter(version_lines), '')
+[2.226s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2769, in _get_metadata
+[2.227s]     for line in self.get_metadata_lines(name):
+[2.228s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1433, in get_metadata_lines
+[2.228s]     return yield_lines(self.get_metadata(name))
+[2.229s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1421, in get_metadata
+[2.229s]     value = self._get(path)
+[2.230s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1617, in _get
+[2.231s]     with open(path, 'rb') as stream:
+[2.232s] FileNotFoundError: [Errno 2] No such file or directory: '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages/simpleMSG-0.0.0-py3.8.egg-info/PKG-INFO'
+[2.386s] Invoked command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/ROS-TCP-Endpoint-main-ros2' returned '1': PYTHONPATH=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/ros_tcp_endpoint/build install --prefix /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint --record /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/ros_tcp_endpoint/install.log --single-version-externally-managed

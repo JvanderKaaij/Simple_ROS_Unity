@@ -1,0 +1,256 @@
+[0.198s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.198s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f87197e9d60>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f87197e9d60>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8719772310>)
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.227s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-main-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-main-ros2) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-main-ros2) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-main-ros2) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-main-ros2) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-main-ros2) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-main-ros2) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-main-ros2) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(ROS-TCP-Endpoint-main-ros2) by extension 'ros'
+[0.251s] DEBUG:colcon.colcon_core.package_identification:Package 'ROS-TCP-Endpoint-main-ros2' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(simple_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(simple_interface) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(simple_interface) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(simple_interface) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(simple_interface) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(simple_interface) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(simple_interface) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(simple_interface) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(simple_interface) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'simple_interface' with type 'ros.ament_cmake' and name 'simple_interface'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(simple_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simple_msg) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(simple_msg) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simple_msg) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(simple_msg) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(simple_msg) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(simple_msg) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(simple_msg) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(simple_msg) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'simple_msg' with type 'ros.ament_python' and name 'simple_msg'
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.305s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.305s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.306s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.307s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.307s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.307s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.308s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.308s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.316s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install
+[0.317s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 168 installed packages in /opt/ros/foxy
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.359s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/ROS-TCP-Endpoint-main-ros2', 'symlink_install': False, 'test_result_base': None}
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'simple_interface' build argument 'cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'simple_interface' build argument 'cmake_target' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'simple_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'simple_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'simple_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'simple_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'simple_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'simple_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'simple_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.361s] DEBUG:colcon.colcon_core.verb:Building package 'simple_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface', 'merge_install': False, 'path': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simple_interface', 'symlink_install': False, 'test_result_base': None}
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'simple_msg' build argument 'cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'simple_msg' build argument 'cmake_target' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'simple_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'simple_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'simple_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'simple_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'simple_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'simple_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'simple_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.363s] DEBUG:colcon.colcon_core.verb:Building package 'simple_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg', 'merge_install': False, 'path': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simple_msg', 'symlink_install': False, 'test_result_base': None}
+[0.364s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.367s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.367s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simple_interface' with build type 'ament_cmake'
+[0.367s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simple_interface'
+[0.372s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.372s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.373s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.389s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/ROS-TCP-Endpoint-main-ros2' with build type 'ament_python'
+[0.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[0.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[0.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[0.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[0.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simple_interface -DCMAKE_INSTALL_PREFIX=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface
+[0.662s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/ROS-TCP-Endpoint-main-ros2'
+[0.664s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.665s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/ROS-TCP-Endpoint-main-ros2': PYTHONPATH=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_tcp_endpoint build --build-base /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build install --prefix /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint --record /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/install.log --single-version-externally-managed
+[3.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/ROS-TCP-Endpoint-main-ros2' returned '0': PYTHONPATH=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros_tcp_endpoint build --build-base /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build install --prefix /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint --record /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/install.log --single-version-externally-managed
+[3.122s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint' for CMake module files
+[3.153s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint' for CMake config files
+[3.211s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib'
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/bin'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[3.217s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages'
+[3.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[3.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[3.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[3.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[3.249s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/bin'
+[3.250s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[3.252s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[3.261s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[3.269s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[3.278s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[3.287s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[3.293s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[16.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simple_interface -DCMAKE_INSTALL_PREFIX=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface
+[16.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface -- -j8 -l8
+[23.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake --build /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface -- -j8 -l8
+[24.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake --install /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface
+[28.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_interface)
+[28.867s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface' for CMake module files
+[28.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/opt/ros/foxy /usr/bin/cmake --install /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface
+[28.969s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface' for CMake config files
+[29.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_interface', 'cmake_prefix_path')
+[29.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/cmake_prefix_path.ps1'
+[29.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/cmake_prefix_path.dsv'
+[29.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/cmake_prefix_path.sh'
+[29.071s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib'
+[29.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_interface', 'ld_library_path_lib')
+[29.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/ld_library_path_lib.ps1'
+[29.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/ld_library_path_lib.dsv'
+[29.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/ld_library_path_lib.sh'
+[29.100s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/bin'
+[29.101s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/pkgconfig/simple_interface.pc'
+[29.102s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages'
+[29.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_interface', 'pythonpath')
+[29.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/pythonpath.ps1'
+[29.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/pythonpath.dsv'
+[29.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/pythonpath.sh'
+[29.129s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/bin'
+[29.131s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/package.ps1'
+[29.138s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/package.dsv'
+[29.146s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/package.sh'
+[29.152s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/package.bash'
+[29.159s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/package.zsh'
+[29.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/colcon-core/packages/simple_interface)
+[30.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_interface)
+[30.146s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface' for CMake module files
+[30.255s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface' for CMake config files
+[30.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_interface', 'cmake_prefix_path')
+[30.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/cmake_prefix_path.ps1'
+[30.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/cmake_prefix_path.dsv'
+[30.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/cmake_prefix_path.sh'
+[30.366s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib'
+[30.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_interface', 'ld_library_path_lib')
+[30.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/ld_library_path_lib.ps1'
+[30.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/ld_library_path_lib.dsv'
+[30.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/ld_library_path_lib.sh'
+[30.396s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/bin'
+[30.397s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/pkgconfig/simple_interface.pc'
+[30.398s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages'
+[30.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_interface', 'pythonpath')
+[30.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/pythonpath.ps1'
+[30.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/pythonpath.dsv'
+[30.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/hook/pythonpath.sh'
+[30.427s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/bin'
+[30.429s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/package.ps1'
+[30.437s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/package.dsv'
+[30.444s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/package.sh'
+[30.452s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/package.bash'
+[30.459s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/package.zsh'
+[30.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/colcon-core/packages/simple_interface)
+[30.472s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simple_msg' with build type 'ament_python'
+[30.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_msg', 'ament_prefix_path')
+[30.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/simple_msg/hook/ament_prefix_path.ps1'
+[30.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/simple_msg/hook/ament_prefix_path.dsv'
+[30.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/simple_msg/hook/ament_prefix_path.sh'
+[30.506s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[30.507s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.263s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simple_msg'
+[31.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.265s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[32.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simple_msg': PYTHONPATH=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../build/simple_msg build --build-base /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_msg/build install --prefix /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg --record /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_msg/install.log --single-version-externally-managed
+[33.896s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg' for CMake module files
+[33.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simple_msg' returned '0': PYTHONPATH=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../build/simple_msg build --build-base /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_msg/build install --prefix /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg --record /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_msg/install.log --single-version-externally-managed
+[33.928s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg' for CMake config files
+[33.983s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib'
+[33.987s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/bin'
+[33.989s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/pkgconfig/simple_msg.pc'
+[33.991s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages'
+[33.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_msg', 'pythonpath')
+[33.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/simple_msg/hook/pythonpath.ps1'
+[34.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/simple_msg/hook/pythonpath.dsv'
+[34.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/simple_msg/hook/pythonpath.sh'
+[34.027s] Level 1:colcon.colcon_core.environment:checking '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/bin'
+[34.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_msg)
+[34.029s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/simple_msg/package.ps1'
+[34.039s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/simple_msg/package.dsv'
+[34.046s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/simple_msg/package.sh'
+[34.055s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/simple_msg/package.bash'
+[34.062s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/simple_msg/package.zsh'
+[34.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/colcon-core/packages/simple_msg)
+[34.079s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[34.080s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[34.080s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[34.080s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[34.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[34.142s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[34.142s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[34.142s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[34.175s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally with the following error: Autolaunch error: X11 initialization failed.
+
+[34.175s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[34.177s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/local_setup.ps1'
+[34.181s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/_local_setup_util_ps1.py'
+[34.186s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/setup.ps1'
+[34.207s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/local_setup.sh'
+[34.211s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/_local_setup_util_sh.py'
+[34.217s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/setup.sh'
+[34.240s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/local_setup.bash'
+[34.245s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/setup.bash'
+[34.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/local_setup.zsh'
+[34.270s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/setup.zsh'

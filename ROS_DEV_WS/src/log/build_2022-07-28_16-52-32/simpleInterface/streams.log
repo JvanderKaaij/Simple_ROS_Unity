@@ -1,0 +1,38 @@
+[0.070s] Invoking command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simpleInterface': CMAKE_PREFIX_PATH=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/opt/ros/foxy /usr/bin/cmake /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simpleInterface -DCMAKE_INSTALL_PREFIX=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleInterface
+[0.377s] -- The C compiler identification is GNU 9.4.0
+[0.799s] -- The CXX compiler identification is GNU 9.4.0
+[0.989s] -- Check for working C compiler: /usr/bin/cc
+[1.368s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.372s] -- Detecting C compiler ABI info
+[1.777s] -- Detecting C compiler ABI info - done
+[1.800s] -- Detecting C compile features
+[1.800s] -- Detecting C compile features - done
+[1.832s] -- Check for working CXX compiler: /usr/bin/c++
+[2.260s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.264s] -- Detecting CXX compiler ABI info
+[2.668s] -- Detecting CXX compiler ABI info - done
+[2.690s] -- Detecting CXX compile features
+[2.691s] -- Detecting CXX compile features - done
+[2.765s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.971s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.972s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.091s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.371s] WARNING: Package name "simpleInterface" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[4.900s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.241s] -- Added test 'lint_cmake' to check CMake code style
+[5.422s] -- Added test 'xmllint' to check XML markup files
+[5.541s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[5.602s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.738s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.463s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.538s] -- Found FastRTPS: /opt/ros/foxy/include  
+[10.780s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.936s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:64 (message):
+[10.936s]   rosidl_generate_interfaces() must be called before ament_package()
+[10.937s] Call Stack (most recent call first):
+[10.938s]   CMakeLists.txt:39 (rosidl_generate_interfaces)
+[10.938s] 
+[10.939s] 
+[10.959s] -- Configuring incomplete, errors occurred!
+[10.960s] See also "/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simpleInterface/CMakeFiles/CMakeOutput.log".
+[10.973s] Invoked command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simpleInterface' returned '1': CMAKE_PREFIX_PATH=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/opt/ros/foxy /usr/bin/cmake /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simpleInterface -DCMAKE_INSTALL_PREFIX=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleInterface

@@ -1,0 +1,669 @@
+[0.000000] (-) TimerEvent: {}
+[0.000367] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.001453] (simple_interface) JobQueued: {'identifier': 'simple_interface', 'dependencies': OrderedDict()}
+[0.001771] (simple_msg) JobQueued: {'identifier': 'simple_msg', 'dependencies': OrderedDict([('simple_interface', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface')])}
+[0.001979] (simple_interface) JobStarted: {'identifier': 'simple_interface'}
+[0.022203] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.076836] (simple_interface) JobProgress: {'identifier': 'simple_interface', 'progress': 'cmake'}
+[0.080639] (simple_interface) Command: {'cmd': ['/usr/bin/cmake', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simple_interface', '-DCMAKE_INSTALL_PREFIX=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface'], 'cwd': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joey'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{5a069d55-87bd-57cf-8a07-2726b203d3e5}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/joey'), ('OLDPWD', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joey'), ('NAME', 'VIVE-PC'), ('WSL_INTEROP', '/run/WSL/11_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Oculus/Support/oculus-runtime:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Program Files/Git/cmd:/mnt/d/Program Files/Git/mingw64/bin:/mnt/d/Program Files/Git/usr/bin:/mnt/d/Users/Sandro Massa/Programs/Python37/Scripts/:/mnt/d/Users/Sandro Massa/Programs/Python37/:/mnt/d/Users/Sandro Massa/Code/vtk-git/install-8.1.2/bin:/mnt/d/Users/Sandro Massa/Programs/Python37/Lib/site-packages:/mnt/d/Users/Sandro Massa/Programs/Python37/Lib/site-packages/vtk:/mnt/d/yazhou/cmake/cmake-3.23.1/bin:/mnt/d/yazhou/Archive_Master_Thesis/Code:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Go/bin:/mnt/c/Users/Joey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Users/Joey/go/bin:/mnt/d/UserProjects/Joey/anaconda3/condabin:/snap/bin'), ('WT_SESSION', 'fcbbe409-80f7-40bc-9fb8-1c1b8c4ae91d'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.099235] (-) TimerEvent: {}
+[0.199674] (-) TimerEvent: {}
+[0.300096] (-) TimerEvent: {}
+[0.400496] (-) TimerEvent: {}
+[0.406564] (simple_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.500580] (-) TimerEvent: {}
+[0.601050] (-) TimerEvent: {}
+[0.701520] (-) TimerEvent: {}
+[0.801942] (-) TimerEvent: {}
+[0.812430] (simple_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.902054] (-) TimerEvent: {}
+[0.992152] (simple_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.002194] (-) TimerEvent: {}
+[1.015838] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/ros_tcp_endpoint', 'build', '--build-base', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build', 'install', '--prefix', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint', '--record', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/ROS-TCP-Endpoint-main-ros2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'joey', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'WT_PROFILE_ID': '{5a069d55-87bd-57cf-8a07-2726b203d3e5}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/joey', 'OLDPWD': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'COLCON_PREFIX_PATH': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'joey', 'NAME': 'VIVE-PC', 'WSL_INTEROP': '/run/WSL/11_interop', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Oculus/Support/oculus-runtime:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Program Files/Git/cmd:/mnt/d/Program Files/Git/mingw64/bin:/mnt/d/Program Files/Git/usr/bin:/mnt/d/Users/Sandro Massa/Programs/Python37/Scripts/:/mnt/d/Users/Sandro Massa/Programs/Python37/:/mnt/d/Users/Sandro Massa/Code/vtk-git/install-8.1.2/bin:/mnt/d/Users/Sandro Massa/Programs/Python37/Lib/site-packages:/mnt/d/Users/Sandro Massa/Programs/Python37/Lib/site-packages/vtk:/mnt/d/yazhou/cmake/cmake-3.23.1/bin:/mnt/d/yazhou/Archive_Master_Thesis/Code:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Go/bin:/mnt/c/Users/Joey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Users/Joey/go/bin:/mnt/d/UserProjects/Joey/anaconda3/condabin:/snap/bin', 'WT_SESSION': 'fcbbe409-80f7-40bc-9fb8-1c1b8c4ae91d', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface', 'WSLENV': 'WT_SESSION::WT_PROFILE_ID'}, 'shell': False}
+[1.102310] (-) TimerEvent: {}
+[1.202776] (-) TimerEvent: {}
+[1.303150] (-) TimerEvent: {}
+[1.403577] (-) TimerEvent: {}
+[1.408123] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[1.410474] (ros_tcp_endpoint) StdoutLine: {'line': b'creating ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info\n'}
+[1.412429] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[1.418215] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[1.421183] (simple_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.422060] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[1.424953] (simple_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.425690] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt\n'}
+[1.427379] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[1.435166] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[1.503709] (-) TimerEvent: {}
+[1.507467] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file '../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[1.549424] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[1.551646] (ros_tcp_endpoint) StdoutLine: {'line': b'running build\n'}
+[1.552576] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_py\n'}
+[1.555387] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build\n'}
+[1.556350] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib\n'}
+[1.557662] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.563659] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/client.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.597594] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/communication.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.603822] (-) TimerEvent: {}
+[1.615412] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/default_server_endpoint.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.633649] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/exceptions.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.652343] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/publisher.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.675058] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/server.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.703937] (-) TimerEvent: {}
+[1.704426] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/service.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.723687] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/subscriber.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.743056] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/tcp_sender.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.768030] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/thread_pauser.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.785902] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/unity_service.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.804044] (-) TimerEvent: {}
+[1.805584] (ros_tcp_endpoint) StdoutLine: {'line': b'copying ros_tcp_endpoint/__init__.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint\n'}
+[1.815148] (ros_tcp_endpoint) StdoutLine: {'line': b'running install\n'}
+[1.818259] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_lib\n'}
+[1.833372] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.844980] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.868507] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.891914] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.894624] (simple_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.904154] (-) TimerEvent: {}
+[1.914706] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.917529] (simple_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.918332] (simple_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.938168] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.951774] (simple_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.962486] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[1.986998] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[2.004281] (-) TimerEvent: {}
+[2.012855] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[2.036817] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[2.060568] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[2.083769] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[2.104382] (-) TimerEvent: {}
+[2.105143] (ros_tcp_endpoint) StdoutLine: {'line': b'copying /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint\n'}
+[2.124530] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/client.py to client.cpython-38.pyc\n'}
+[2.151655] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-38.pyc\n'}
+[2.176561] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-38.pyc\n'}
+[2.203936] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-38.pyc\n'}
+[2.204749] (-) TimerEvent: {}
+[2.231460] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-38.pyc\n'}
+[2.259209] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/server.py to server.cpython-38.pyc\n'}
+[2.286468] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/service.py to service.cpython-38.pyc\n'}
+[2.304871] (-) TimerEvent: {}
+[2.315391] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-38.pyc\n'}
+[2.344555] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-38.pyc\n'}
+[2.374312] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-38.pyc\n'}
+[2.386043] (simple_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.389915] (simple_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.403025] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-38.pyc\n'}
+[2.404961] (-) TimerEvent: {}
+[2.428585] (ros_tcp_endpoint) StdoutLine: {'line': b'byte-compiling /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-38.pyc\n'}
+[2.449006] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_data\n'}
+[2.454069] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ament_index\n'}
+[2.455963] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ament_index/resource_index\n'}
+[2.458008] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ament_index/resource_index/packages\n'}
+[2.466147] (ros_tcp_endpoint) StdoutLine: {'line': b'copying resource/ros_tcp_endpoint -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ament_index/resource_index/packages\n'}
+[2.484923] (ros_tcp_endpoint) StdoutLine: {'line': b'copying package.xml -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint\n'}
+[2.498007] (ros_tcp_endpoint) StdoutLine: {'line': b'creating /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch\n'}
+[2.505122] (-) TimerEvent: {}
+[2.505477] (ros_tcp_endpoint) StdoutLine: {'line': b'copying launch/endpoint.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch\n'}
+[2.517001] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.528686] (ros_tcp_endpoint) StdoutLine: {'line': b'Copying ../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages/ros_tcp_endpoint-0.0.1-py3.8.egg-info\n'}
+[2.605231] (-) TimerEvent: {}
+[2.690331] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_scripts\n'}
+[2.705327] (-) TimerEvent: {}
+[2.721032] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[2.729375] (ros_tcp_endpoint) StdoutLine: {'line': b"writing list of installed files to '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/ros_tcp_endpoint/install.log'\n"}
+[2.749215] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[2.805454] (-) TimerEvent: {}
+[2.865103] (simple_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.886399] (simple_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.887156] (simple_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.905578] (-) TimerEvent: {}
+[2.929920] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[2.939818] (simple_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.005667] (-) TimerEvent: {}
+[3.062886] (simple_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.065869] (simple_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.105781] (-) TimerEvent: {}
+[3.206161] (-) TimerEvent: {}
+[3.306518] (-) TimerEvent: {}
+[3.406913] (-) TimerEvent: {}
+[3.507330] (-) TimerEvent: {}
+[3.607705] (-) TimerEvent: {}
+[3.703211] (simple_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.707786] (-) TimerEvent: {}
+[3.808144] (-) TimerEvent: {}
+[3.908541] (-) TimerEvent: {}
+[4.008933] (-) TimerEvent: {}
+[4.106951] (simple_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[4.109016] (-) TimerEvent: {}
+[4.144185] (simple_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.209138] (-) TimerEvent: {}
+[4.215952] (simple_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.309249] (-) TimerEvent: {}
+[4.409648] (-) TimerEvent: {}
+[4.510061] (-) TimerEvent: {}
+[4.610529] (-) TimerEvent: {}
+[4.710929] (-) TimerEvent: {}
+[4.811356] (-) TimerEvent: {}
+[4.911981] (-) TimerEvent: {}
+[5.012444] (-) TimerEvent: {}
+[5.112858] (-) TimerEvent: {}
+[5.213297] (-) TimerEvent: {}
+[5.313711] (-) TimerEvent: {}
+[5.414084] (-) TimerEvent: {}
+[5.514512] (-) TimerEvent: {}
+[5.614940] (-) TimerEvent: {}
+[5.715347] (-) TimerEvent: {}
+[5.794444] (simple_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[5.815459] (-) TimerEvent: {}
+[5.915868] (-) TimerEvent: {}
+[6.016256] (-) TimerEvent: {}
+[6.116655] (-) TimerEvent: {}
+[6.217034] (-) TimerEvent: {}
+[6.317487] (-) TimerEvent: {}
+[6.417872] (-) TimerEvent: {}
+[6.518305] (-) TimerEvent: {}
+[6.618713] (-) TimerEvent: {}
+[6.719154] (-) TimerEvent: {}
+[6.819561] (-) TimerEvent: {}
+[6.916907] (simple_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.919642] (-) TimerEvent: {}
+[7.019984] (-) TimerEvent: {}
+[7.120389] (-) TimerEvent: {}
+[7.220766] (-) TimerEvent: {}
+[7.321155] (-) TimerEvent: {}
+[7.421564] (-) TimerEvent: {}
+[7.521979] (-) TimerEvent: {}
+[7.622381] (-) TimerEvent: {}
+[7.722774] (-) TimerEvent: {}
+[7.823192] (-) TimerEvent: {}
+[7.923611] (-) TimerEvent: {}
+[8.024031] (-) TimerEvent: {}
+[8.124458] (-) TimerEvent: {}
+[8.224852] (-) TimerEvent: {}
+[8.325239] (-) TimerEvent: {}
+[8.425661] (-) TimerEvent: {}
+[8.526037] (-) TimerEvent: {}
+[8.626452] (-) TimerEvent: {}
+[8.726873] (-) TimerEvent: {}
+[8.827298] (-) TimerEvent: {}
+[8.927692] (-) TimerEvent: {}
+[8.991243] (simple_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.027806] (-) TimerEvent: {}
+[9.128359] (-) TimerEvent: {}
+[9.183263] (simple_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[9.228467] (-) TimerEvent: {}
+[9.328856] (-) TimerEvent: {}
+[9.429286] (-) TimerEvent: {}
+[9.476076] (simple_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[9.529398] (-) TimerEvent: {}
+[9.629792] (-) TimerEvent: {}
+[9.730248] (-) TimerEvent: {}
+[9.830630] (-) TimerEvent: {}
+[9.931075] (-) TimerEvent: {}
+[10.031544] (-) TimerEvent: {}
+[10.131976] (-) TimerEvent: {}
+[10.232376] (-) TimerEvent: {}
+[10.332768] (-) TimerEvent: {}
+[10.433158] (-) TimerEvent: {}
+[10.533571] (-) TimerEvent: {}
+[10.633974] (-) TimerEvent: {}
+[10.734367] (-) TimerEvent: {}
+[10.834776] (-) TimerEvent: {}
+[10.935178] (-) TimerEvent: {}
+[11.035591] (-) TimerEvent: {}
+[11.136034] (-) TimerEvent: {}
+[11.236532] (-) TimerEvent: {}
+[11.336952] (-) TimerEvent: {}
+[11.437365] (-) TimerEvent: {}
+[11.537783] (-) TimerEvent: {}
+[11.638169] (-) TimerEvent: {}
+[11.738584] (-) TimerEvent: {}
+[11.839067] (-) TimerEvent: {}
+[11.939491] (-) TimerEvent: {}
+[12.039910] (-) TimerEvent: {}
+[12.140354] (-) TimerEvent: {}
+[12.240766] (-) TimerEvent: {}
+[12.341183] (-) TimerEvent: {}
+[12.441576] (-) TimerEvent: {}
+[12.542017] (-) TimerEvent: {}
+[12.642435] (-) TimerEvent: {}
+[12.742821] (-) TimerEvent: {}
+[12.843254] (-) TimerEvent: {}
+[12.943694] (-) TimerEvent: {}
+[13.044139] (-) TimerEvent: {}
+[13.144524] (-) TimerEvent: {}
+[13.244916] (-) TimerEvent: {}
+[13.345307] (-) TimerEvent: {}
+[13.445806] (-) TimerEvent: {}
+[13.546226] (-) TimerEvent: {}
+[13.604767] (simple_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.646359] (-) TimerEvent: {}
+[13.746784] (-) TimerEvent: {}
+[13.761535] (simple_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.834244] (simple_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[13.846901] (-) TimerEvent: {}
+[13.856633] (simple_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[13.947007] (-) TimerEvent: {}
+[14.047425] (-) TimerEvent: {}
+[14.147836] (-) TimerEvent: {}
+[14.248281] (-) TimerEvent: {}
+[14.348736] (-) TimerEvent: {}
+[14.387813] (simple_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[14.388344] (simple_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[14.388863] (simple_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[14.389386] (simple_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[14.448827] (-) TimerEvent: {}
+[14.464284] (simple_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[14.548925] (-) TimerEvent: {}
+[14.649283] (-) TimerEvent: {}
+[14.749694] (-) TimerEvent: {}
+[14.806482] (simple_interface) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[14.849813] (-) TimerEvent: {}
+[14.950203] (-) TimerEvent: {}
+[15.050611] (-) TimerEvent: {}
+[15.114993] (simple_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.150725] (-) TimerEvent: {}
+[15.251120] (-) TimerEvent: {}
+[15.266054] (simple_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.351234] (-) TimerEvent: {}
+[15.451654] (-) TimerEvent: {}
+[15.552071] (simple_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.552722] (-) TimerEvent: {}
+[15.653079] (-) TimerEvent: {}
+[15.753528] (-) TimerEvent: {}
+[15.853956] (-) TimerEvent: {}
+[15.954377] (-) TimerEvent: {}
+[16.054844] (-) TimerEvent: {}
+[16.155240] (-) TimerEvent: {}
+[16.230051] (simple_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[16.255356] (-) TimerEvent: {}
+[16.335781] (simple_interface) StdoutLine: {'line': b'-- Build files have been written to: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface\n'}
+[16.340959] (simple_interface) CommandEnded: {'returncode': 0}
+[16.343789] (simple_interface) JobProgress: {'identifier': 'simple_interface', 'progress': 'build'}
+[16.347817] (simple_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface', '--', '-j8', '-l8'], 'cwd': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joey'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{5a069d55-87bd-57cf-8a07-2726b203d3e5}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/joey'), ('OLDPWD', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joey'), ('NAME', 'VIVE-PC'), ('WSL_INTEROP', '/run/WSL/11_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Oculus/Support/oculus-runtime:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Program Files/Git/cmd:/mnt/d/Program Files/Git/mingw64/bin:/mnt/d/Program Files/Git/usr/bin:/mnt/d/Users/Sandro Massa/Programs/Python37/Scripts/:/mnt/d/Users/Sandro Massa/Programs/Python37/:/mnt/d/Users/Sandro Massa/Code/vtk-git/install-8.1.2/bin:/mnt/d/Users/Sandro Massa/Programs/Python37/Lib/site-packages:/mnt/d/Users/Sandro Massa/Programs/Python37/Lib/site-packages/vtk:/mnt/d/yazhou/cmake/cmake-3.23.1/bin:/mnt/d/yazhou/Archive_Master_Thesis/Code:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Go/bin:/mnt/c/Users/Joey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Users/Joey/go/bin:/mnt/d/UserProjects/Joey/anaconda3/condabin:/snap/bin'), ('WT_SESSION', 'fcbbe409-80f7-40bc-9fb8-1c1b8c4ae91d'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[16.355449] (-) TimerEvent: {}
+[16.455848] (-) TimerEvent: {}
+[16.507531] (simple_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_interface__cpp\x1b[0m\n'}
+[16.519026] (simple_interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[16.555952] (-) TimerEvent: {}
+[16.560490] (simple_interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[16.656061] (-) TimerEvent: {}
+[16.756481] (-) TimerEvent: {}
+[16.854335] (simple_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_interface__rosidl_generator_c\x1b[0m\n'}
+[16.856600] (-) TimerEvent: {}
+[16.908264] (simple_interface) StdoutLine: {'line': b'[  6%] Built target simple_interface__cpp\n'}
+[16.952867] (simple_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[16.954030] (simple_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.956707] (-) TimerEvent: {}
+[16.966653] (simple_interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[16.987459] (simple_interface) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/simple_interface__rosidl_generator_c.dir/rosidl_generator_c/simple_interface/msg/detail/simple__functions.c.o\x1b[0m\n'}
+[17.056815] (-) TimerEvent: {}
+[17.150839] (simple_interface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libsimple_interface__rosidl_generator_c.so\x1b[0m\n'}
+[17.156923] (-) TimerEvent: {}
+[17.257342] (-) TimerEvent: {}
+[17.278617] (simple_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[17.295250] (simple_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[17.305667] (simple_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[17.357456] (-) TimerEvent: {}
+[17.375489] (simple_interface) StdoutLine: {'line': b'[ 22%] Built target simple_interface__rosidl_generator_c\n'}
+[17.432441] (simple_interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[17.436656] (simple_interface) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/simple_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/simple_interface/msg/simple__type_support.cpp.o\x1b[0m\n'}
+[17.445721] (simple_interface) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[17.457590] (-) TimerEvent: {}
+[17.477622] (simple_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/simple_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/simple_interface/msg/detail/simple__type_support.cpp.o\x1b[0m\n'}
+[17.548857] (simple_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/simple_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/simple_interface/msg/detail/dds_fastrtps/simple__type_support.cpp.o\x1b[0m\n'}
+[17.557698] (-) TimerEvent: {}
+[17.658211] (-) TimerEvent: {}
+[17.758709] (-) TimerEvent: {}
+[17.796904] (simple_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_interface__rosidl_typesupport_c\x1b[0m\n'}
+[17.850697] (simple_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[17.858844] (-) TimerEvent: {}
+[17.951037] (simple_interface) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libsimple_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[17.958971] (-) TimerEvent: {}
+[17.962972] (simple_interface) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/simple_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/simple_interface/msg/simple__type_support.cpp.o\x1b[0m\n'}
+[17.980371] (simple_interface) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libsimple_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[18.059084] (-) TimerEvent: {}
+[18.083393] (simple_interface) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/simple_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/simple_interface/msg/detail/simple__type_support.c.o\x1b[0m\n'}
+[18.132434] (simple_interface) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libsimple_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[18.159203] (-) TimerEvent: {}
+[18.226299] (simple_interface) StdoutLine: {'line': b'[ 54%] Built target simple_interface__rosidl_typesupport_cpp\n'}
+[18.259350] (-) TimerEvent: {}
+[18.284865] (simple_interface) StdoutLine: {'line': b'[ 54%] Built target simple_interface__rosidl_typesupport_introspection_cpp\n'}
+[18.309014] (simple_interface) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libsimple_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[18.344493] (simple_interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libsimple_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[18.359459] (-) TimerEvent: {}
+[18.360047] (simple_interface) StdoutLine: {'line': b'[ 61%] Built target simple_interface__rosidl_typesupport_c\n'}
+[18.459568] (-) TimerEvent: {}
+[18.494804] (simple_interface) StdoutLine: {'line': b'[ 61%] Built target simple_interface__rosidl_typesupport_introspection_c\n'}
+[18.559675] (-) TimerEvent: {}
+[18.571982] (simple_interface) StdoutLine: {'line': b'[ 61%] Built target simple_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[18.620525] (simple_interface) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[18.659808] (-) TimerEvent: {}
+[18.760292] (-) TimerEvent: {}
+[18.860652] (-) TimerEvent: {}
+[18.951261] (simple_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[18.960749] (-) TimerEvent: {}
+[19.061134] (-) TimerEvent: {}
+[19.153707] (simple_interface) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/simple_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/simple_interface/msg/detail/simple__type_support_c.cpp.o\x1b[0m\n'}
+[19.161236] (-) TimerEvent: {}
+[19.261628] (-) TimerEvent: {}
+[19.362031] (-) TimerEvent: {}
+[19.462447] (-) TimerEvent: {}
+[19.562856] (-) TimerEvent: {}
+[19.663249] (-) TimerEvent: {}
+[19.763738] (-) TimerEvent: {}
+[19.811940] (simple_interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libsimple_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[19.863846] (-) TimerEvent: {}
+[19.964262] (-) TimerEvent: {}
+[20.057747] (simple_interface) StdoutLine: {'line': b'[ 70%] Built target simple_interface__rosidl_typesupport_fastrtps_c\n'}
+[20.064376] (-) TimerEvent: {}
+[20.096408] (simple_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_interface\x1b[0m\n'}
+[20.152896] (simple_interface) StdoutLine: {'line': b'[ 70%] Built target simple_interface\n'}
+[20.164483] (-) TimerEvent: {}
+[20.198508] (simple_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_interface__py\x1b[0m\n'}
+[20.264598] (-) TimerEvent: {}
+[20.267457] (simple_interface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[20.364698] (-) TimerEvent: {}
+[20.465083] (-) TimerEvent: {}
+[20.565445] (-) TimerEvent: {}
+[20.665818] (-) TimerEvent: {}
+[20.766226] (-) TimerEvent: {}
+[20.798858] (simple_interface) StdoutLine: {'line': b'[ 74%] Built target simple_interface__py\n'}
+[20.842011] (simple_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_interface__python\x1b[0m\n'}
+[20.866341] (-) TimerEvent: {}
+[20.966788] (-) TimerEvent: {}
+[21.067185] (-) TimerEvent: {}
+[21.142197] (simple_interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/simple_interface__python.dir/rosidl_generator_py/simple_interface/msg/_simple_s.c.o\x1b[0m\n'}
+[21.167297] (-) TimerEvent: {}
+[21.267735] (-) TimerEvent: {}
+[21.368177] (-) TimerEvent: {}
+[21.447848] (simple_interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/simple_interface/libsimple_interface__python.so\x1b[0m\n'}
+[21.468289] (-) TimerEvent: {}
+[21.568740] (-) TimerEvent: {}
+[21.650280] (simple_interface) StdoutLine: {'line': b'[ 80%] Built target simple_interface__python\n'}
+[21.668832] (-) TimerEvent: {}
+[21.681721] (simple_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[21.683469] (simple_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[21.692312] (simple_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[21.768957] (-) TimerEvent: {}
+[21.869496] (-) TimerEvent: {}
+[21.969950] (-) TimerEvent: {}
+[22.019865] (simple_interface) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/simple_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/simple_interface/_simple_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[22.059564] (simple_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/simple_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/simple_interface/_simple_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[22.070070] (-) TimerEvent: {}
+[22.171345] (-) TimerEvent: {}
+[22.205378] (simple_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/simple_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/simple_interface/_simple_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[22.273822] (-) TimerEvent: {}
+[22.374439] (-) TimerEvent: {}
+[22.474965] (-) TimerEvent: {}
+[22.505903] (simple_interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/simple_interface/simple_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[22.575078] (-) TimerEvent: {}
+[22.576985] (simple_interface) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/simple_interface/simple_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[22.675196] (-) TimerEvent: {}
+[22.775821] (-) TimerEvent: {}
+[22.781607] (simple_interface) StdoutLine: {'line': b'[ 96%] Built target simple_interface__rosidl_typesupport_c__pyext\n'}
+[22.836062] (simple_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/simple_interface/simple_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[22.862976] (simple_interface) StdoutLine: {'line': b'[100%] Built target simple_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[22.875940] (-) TimerEvent: {}
+[22.976326] (-) TimerEvent: {}
+[23.076773] (-) TimerEvent: {}
+[23.123816] (simple_interface) StdoutLine: {'line': b'[100%] Built target simple_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[23.176929] (-) TimerEvent: {}
+[23.204854] (simple_interface) CommandEnded: {'returncode': 0}
+[23.277042] (-) TimerEvent: {}
+[23.377516] (-) TimerEvent: {}
+[23.477935] (-) TimerEvent: {}
+[23.578337] (-) TimerEvent: {}
+[23.613028] (simple_interface) JobProgress: {'identifier': 'simple_interface', 'progress': 'install'}
+[23.630126] (simple_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface'], 'cwd': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joey'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{5a069d55-87bd-57cf-8a07-2726b203d3e5}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/joey'), ('OLDPWD', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joey'), ('NAME', 'VIVE-PC'), ('WSL_INTEROP', '/run/WSL/11_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Oculus/Support/oculus-runtime:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Program Files/Git/cmd:/mnt/d/Program Files/Git/mingw64/bin:/mnt/d/Program Files/Git/usr/bin:/mnt/d/Users/Sandro Massa/Programs/Python37/Scripts/:/mnt/d/Users/Sandro Massa/Programs/Python37/:/mnt/d/Users/Sandro Massa/Code/vtk-git/install-8.1.2/bin:/mnt/d/Users/Sandro Massa/Programs/Python37/Lib/site-packages:/mnt/d/Users/Sandro Massa/Programs/Python37/Lib/site-packages/vtk:/mnt/d/yazhou/cmake/cmake-3.23.1/bin:/mnt/d/yazhou/Archive_Master_Thesis/Code:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Go/bin:/mnt/c/Users/Joey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Users/Joey/go/bin:/mnt/d/UserProjects/Joey/anaconda3/condabin:/snap/bin'), ('WT_SESSION', 'fcbbe409-80f7-40bc-9fb8-1c1b8c4ae91d'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_interface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[23.646053] (simple_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.666249] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/ament_index/resource_index/rosidl_interfaces/simple_interface\n'}
+[23.678430] (-) TimerEvent: {}
+[23.710361] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface\n'}
+[23.722881] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg\n'}
+[23.738747] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail\n'}
+[23.761721] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__functions.c\n'}
+[23.778546] (-) TimerEvent: {}
+[23.811381] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__functions.h\n'}
+[23.861370] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__struct.h\n'}
+[23.878666] (-) TimerEvent: {}
+[23.925846] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__type_support.h\n'}
+[23.978691] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[23.979374] (-) TimerEvent: {}
+[24.023645] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/simple.h\n'}
+[24.069653] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/environment/library_path.sh\n'}
+[24.079595] (-) TimerEvent: {}
+[24.108473] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/environment/library_path.dsv\n'}
+[24.150855] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_generator_c.so\n'}
+[24.179731] (-) TimerEvent: {}
+[24.209240] (simple_interface) StdoutLine: {'line': b'-- Set runtime path of "/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_generator_c.so" to ""\n'}
+[24.214951] (simple_interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface\n'}
+[24.226841] (simple_interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg\n'}
+[24.241409] (simple_interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail\n'}
+[24.260486] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__rosidl_typesupport_fastrtps_c.h\n'}
+[24.279882] (-) TimerEvent: {}
+[24.334261] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[24.379317] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[24.380108] (-) TimerEvent: {}
+[24.452058] (simple_interface) StdoutLine: {'line': b'-- Set runtime path of "/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[24.457599] (simple_interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface\n'}
+[24.468799] (simple_interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg\n'}
+[24.480224] (-) TimerEvent: {}
+[24.482756] (simple_interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail\n'}
+[24.499331] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/dds_fastrtps\n'}
+[24.525684] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.575525] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[24.580310] (-) TimerEvent: {}
+[24.617792] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.674614] (simple_interface) StdoutLine: {'line': b'-- Set runtime path of "/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[24.680173] (simple_interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface\n'}
+[24.680792] (-) TimerEvent: {}
+[24.692067] (simple_interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg\n'}
+[24.706333] (simple_interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail\n'}
+[24.725504] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__rosidl_typesupport_introspection_c.h\n'}
+[24.776996] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__type_support.c\n'}
+[24.780882] (-) TimerEvent: {}
+[24.826014] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[24.867060] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_introspection_c.so\n'}
+[24.881014] (-) TimerEvent: {}
+[24.928120] (simple_interface) StdoutLine: {'line': b'-- Set runtime path of "/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[24.937576] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_c.so\n'}
+[24.981116] (-) TimerEvent: {}
+[24.991628] (simple_interface) StdoutLine: {'line': b'-- Set runtime path of "/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_c.so" to ""\n'}
+[24.997247] (simple_interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface\n'}
+[25.009030] (simple_interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg\n'}
+[25.023579] (simple_interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail\n'}
+[25.042810] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__builder.hpp\n'}
+[25.081233] (-) TimerEvent: {}
+[25.094401] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__struct.hpp\n'}
+[25.148241] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__traits.hpp\n'}
+[25.181356] (-) TimerEvent: {}
+[25.210260] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/simple.hpp\n'}
+[25.261925] (simple_interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface\n'}
+[25.274037] (simple_interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg\n'}
+[25.281480] (-) TimerEvent: {}
+[25.291151] (simple_interface) StdoutLine: {'line': b'-- Up-to-date: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail\n'}
+[25.316391] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__rosidl_typesupport_introspection_cpp.hpp\n'}
+[25.381586] (-) TimerEvent: {}
+[25.388931] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/include/simple_interface/msg/detail/simple__type_support.cpp\n'}
+[25.441344] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[25.481698] (-) TimerEvent: {}
+[25.499208] (simple_interface) StdoutLine: {'line': b'-- Set runtime path of "/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[25.509961] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_cpp.so\n'}
+[25.569554] (simple_interface) StdoutLine: {'line': b'-- Set runtime path of "/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[25.581167] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/environment/pythonpath.sh\n'}
+[25.581832] (-) TimerEvent: {}
+[25.630270] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/environment/pythonpath.dsv\n'}
+[25.681969] (-) TimerEvent: {}
+[25.711570] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/__init__.py\n'}
+[25.782085] (-) TimerEvent: {}
+[25.882562] (-) TimerEvent: {}
+[25.983024] (-) TimerEvent: {}
+[26.041582] (simple_interface) StdoutLine: {'line': b"Compiling '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/__init__.py'...\n"}
+[26.051518] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/msg\n'}
+[26.077661] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/msg/_simple.py\n'}
+[26.083165] (-) TimerEvent: {}
+[26.137377] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/msg/_simple_s.c\n'}
+[26.183276] (-) TimerEvent: {}
+[26.197068] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/msg/__init__.py\n'}
+[26.268864] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/simple_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[26.283420] (-) TimerEvent: {}
+[26.373238] (simple_interface) StdoutLine: {'line': b'-- Set runtime path of "/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/simple_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[26.383538] (-) TimerEvent: {}
+[26.394762] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/simple_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[26.483656] (-) TimerEvent: {}
+[26.489355] (simple_interface) StdoutLine: {'line': b'-- Set runtime path of "/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/simple_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[26.507539] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/simple_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[26.583774] (-) TimerEvent: {}
+[26.597859] (simple_interface) StdoutLine: {'line': b'-- Set runtime path of "/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages/simple_interface/simple_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[26.613231] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__python.so\n'}
+[26.682396] (simple_interface) StdoutLine: {'line': b'-- Set runtime path of "/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/libsimple_interface__python.so" to ""\n'}
+[26.683897] (-) TimerEvent: {}
+[26.703157] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/msg/Simple.idl\n'}
+[26.751720] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/msg/Simple.msg\n'}
+[26.784029] (-) TimerEvent: {}
+[26.835714] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/ament_index/resource_index/package_run_dependencies/simple_interface\n'}
+[26.884157] (-) TimerEvent: {}
+[26.945947] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/ament_index/resource_index/parent_prefix_path/simple_interface\n'}
+[26.984321] (-) TimerEvent: {}
+[27.055961] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/environment/ament_prefix_path.sh\n'}
+[27.084463] (-) TimerEvent: {}
+[27.103630] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/environment/ament_prefix_path.dsv\n'}
+[27.154264] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/environment/path.sh\n'}
+[27.184572] (-) TimerEvent: {}
+[27.194265] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/environment/path.dsv\n'}
+[27.238600] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/local_setup.bash\n'}
+[27.279469] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/local_setup.sh\n'}
+[27.284807] (-) TimerEvent: {}
+[27.323672] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/local_setup.zsh\n'}
+[27.365044] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/local_setup.dsv\n'}
+[27.384921] (-) TimerEvent: {}
+[27.402321] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/package.dsv\n'}
+[27.455996] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/ament_index/resource_index/packages/simple_interface\n'}
+[27.485054] (-) TimerEvent: {}
+[27.523657] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_generator_cExport.cmake\n'}
+[27.578164] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[27.585135] (-) TimerEvent: {}
+[27.635060] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[27.685264] (-) TimerEvent: {}
+[27.687964] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[27.743483] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_typesupport_cExport.cmake\n'}
+[27.785390] (-) TimerEvent: {}
+[27.795061] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[27.847960] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_generator_cppExport.cmake\n'}
+[27.885504] (-) TimerEvent: {}
+[27.901321] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[27.957383] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[27.985635] (-) TimerEvent: {}
+[28.011194] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_typesupport_cppExport.cmake\n'}
+[28.063665] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[28.085744] (-) TimerEvent: {}
+[28.109062] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[28.149323] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[28.185852] (-) TimerEvent: {}
+[28.189331] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[28.229278] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[28.269187] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[28.285972] (-) TimerEvent: {}
+[28.309447] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[28.350015] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[28.386082] (-) TimerEvent: {}
+[28.389172] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interfaceConfig.cmake\n'}
+[28.426529] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/cmake/simple_interfaceConfig-version.cmake\n'}
+[28.465101] (simple_interface) StdoutLine: {'line': b'-- Installing: /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/share/simple_interface/package.xml\n'}
+[28.486197] (-) TimerEvent: {}
+[28.497890] (simple_interface) CommandEnded: {'returncode': 0}
+[28.586307] (-) TimerEvent: {}
+[28.686699] (-) TimerEvent: {}
+[28.787081] (-) TimerEvent: {}
+[28.888105] (-) TimerEvent: {}
+[28.988546] (-) TimerEvent: {}
+[29.088952] (-) TimerEvent: {}
+[29.189356] (-) TimerEvent: {}
+[29.289874] (-) TimerEvent: {}
+[29.390296] (-) TimerEvent: {}
+[29.490687] (-) TimerEvent: {}
+[29.591064] (-) TimerEvent: {}
+[29.691456] (-) TimerEvent: {}
+[29.791840] (-) TimerEvent: {}
+[29.892251] (-) TimerEvent: {}
+[29.992622] (-) TimerEvent: {}
+[30.092978] (-) TimerEvent: {}
+[30.104867] (simple_interface) JobEnded: {'identifier': 'simple_interface', 'rc': 0}
+[30.113037] (simple_msg) JobStarted: {'identifier': 'simple_msg'}
+[30.193138] (-) TimerEvent: {}
+[30.293578] (-) TimerEvent: {}
+[30.394025] (-) TimerEvent: {}
+[30.494645] (-) TimerEvent: {}
+[30.595061] (-) TimerEvent: {}
+[30.695460] (-) TimerEvent: {}
+[30.795902] (-) TimerEvent: {}
+[30.896306] (-) TimerEvent: {}
+[30.998050] (-) TimerEvent: {}
+[31.098535] (-) TimerEvent: {}
+[31.198982] (-) TimerEvent: {}
+[31.299474] (-) TimerEvent: {}
+[31.399887] (-) TimerEvent: {}
+[31.500268] (-) TimerEvent: {}
+[31.600630] (-) TimerEvent: {}
+[31.701027] (-) TimerEvent: {}
+[31.801469] (-) TimerEvent: {}
+[31.901874] (-) TimerEvent: {}
+[32.002235] (-) TimerEvent: {}
+[32.102640] (-) TimerEvent: {}
+[32.203070] (-) TimerEvent: {}
+[32.238047] (simple_msg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/simple_msg', 'build', '--build-base', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_msg/build', 'install', '--prefix', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg', '--record', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_msg/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simple_msg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'joey', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'WT_PROFILE_ID': '{5a069d55-87bd-57cf-8a07-2726b203d3e5}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/joey', 'OLDPWD': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'COLCON_PREFIX_PATH': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'joey', 'NAME': 'VIVE-PC', 'WSL_INTEROP': '/run/WSL/11_interop', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Oculus/Support/oculus-runtime:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Program Files/Git/cmd:/mnt/d/Program Files/Git/mingw64/bin:/mnt/d/Program Files/Git/usr/bin:/mnt/d/Users/Sandro Massa/Programs/Python37/Scripts/:/mnt/d/Users/Sandro Massa/Programs/Python37/:/mnt/d/Users/Sandro Massa/Code/vtk-git/install-8.1.2/bin:/mnt/d/Users/Sandro Massa/Programs/Python37/Lib/site-packages:/mnt/d/Users/Sandro Massa/Programs/Python37/Lib/site-packages/vtk:/mnt/d/yazhou/cmake/cmake-3.23.1/bin:/mnt/d/yazhou/Archive_Master_Thesis/Code:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Go/bin:/mnt/c/Users/Joey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Users/Joey/go/bin:/mnt/d/UserProjects/Joey/anaconda3/condabin:/snap/bin', 'WT_SESSION': 'fcbbe409-80f7-40bc-9fb8-1c1b8c4ae91d', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_msg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleMSG/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/ros_tcp_endpoint/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_interface', 'WSLENV': 'WT_SESSION::WT_PROFILE_ID'}, 'shell': False}
+[32.303177] (-) TimerEvent: {}
+[32.403599] (-) TimerEvent: {}
+[32.504043] (-) TimerEvent: {}
+[32.604422] (-) TimerEvent: {}
+[32.704804] (-) TimerEvent: {}
+[32.805213] (-) TimerEvent: {}
+[32.905588] (-) TimerEvent: {}
+[32.949007] (simple_msg) StdoutLine: {'line': b'running egg_info\n'}
+[32.952297] (simple_msg) StdoutLine: {'line': b'creating ../build/simple_msg/simple_msg.egg-info\n'}
+[32.954550] (simple_msg) StdoutLine: {'line': b'writing ../build/simple_msg/simple_msg.egg-info/PKG-INFO\n'}
+[32.960966] (simple_msg) StdoutLine: {'line': b'writing dependency_links to ../build/simple_msg/simple_msg.egg-info/dependency_links.txt\n'}
+[32.965164] (simple_msg) StdoutLine: {'line': b'writing entry points to ../build/simple_msg/simple_msg.egg-info/entry_points.txt\n'}
+[32.968112] (simple_msg) StdoutLine: {'line': b'writing requirements to ../build/simple_msg/simple_msg.egg-info/requires.txt\n'}
+[32.970562] (simple_msg) StdoutLine: {'line': b'writing top-level names to ../build/simple_msg/simple_msg.egg-info/top_level.txt\n'}
+[32.980364] (simple_msg) StdoutLine: {'line': b"writing manifest file '../build/simple_msg/simple_msg.egg-info/SOURCES.txt'\n"}
+[33.005685] (-) TimerEvent: {}
+[33.045195] (simple_msg) StdoutLine: {'line': b"reading manifest file '../build/simple_msg/simple_msg.egg-info/SOURCES.txt'\n"}
+[33.079456] (simple_msg) StdoutLine: {'line': b"writing manifest file '../build/simple_msg/simple_msg.egg-info/SOURCES.txt'\n"}
+[33.081761] (simple_msg) StdoutLine: {'line': b'running build\n'}
+[33.082425] (simple_msg) StdoutLine: {'line': b'running build_py\n'}
+[33.086039] (simple_msg) StdoutLine: {'line': b'creating /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_msg/build\n'}
+[33.087154] (simple_msg) StdoutLine: {'line': b'creating /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_msg/build/lib\n'}
+[33.088468] (simple_msg) StdoutLine: {'line': b'creating /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_msg/build/lib/simple_msg\n'}
+[33.094215] (simple_msg) StdoutLine: {'line': b'copying simple_msg/publisher_node.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_msg/build/lib/simple_msg\n'}
+[33.105785] (-) TimerEvent: {}
+[33.107320] (simple_msg) StdoutLine: {'line': b'copying simple_msg/__init__.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_msg/build/lib/simple_msg\n'}
+[33.115645] (simple_msg) StdoutLine: {'line': b'running install\n'}
+[33.120672] (simple_msg) StdoutLine: {'line': b'running install_lib\n'}
+[33.134617] (simple_msg) StdoutLine: {'line': b'creating /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages/simple_msg\n'}
+[33.145156] (simple_msg) StdoutLine: {'line': b'copying /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_msg/build/lib/simple_msg/publisher_node.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages/simple_msg\n'}
+[33.166314] (simple_msg) StdoutLine: {'line': b'copying /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_msg/build/lib/simple_msg/__init__.py -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages/simple_msg\n'}
+[33.188575] (simple_msg) StdoutLine: {'line': b'byte-compiling /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages/simple_msg/publisher_node.py to publisher_node.cpython-38.pyc\n'}
+[33.205899] (-) TimerEvent: {}
+[33.213361] (simple_msg) StdoutLine: {'line': b'byte-compiling /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages/simple_msg/__init__.py to __init__.cpython-38.pyc\n'}
+[33.233682] (simple_msg) StdoutLine: {'line': b'running install_data\n'}
+[33.238230] (simple_msg) StdoutLine: {'line': b'creating /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/ament_index\n'}
+[33.239672] (simple_msg) StdoutLine: {'line': b'creating /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/ament_index/resource_index\n'}
+[33.241332] (simple_msg) StdoutLine: {'line': b'creating /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/ament_index/resource_index/packages\n'}
+[33.248010] (simple_msg) StdoutLine: {'line': b'copying resource/simple_msg -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/ament_index/resource_index/packages\n'}
+[33.261861] (simple_msg) StdoutLine: {'line': b'copying package.xml -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/share/simple_msg\n'}
+[33.269790] (simple_msg) StdoutLine: {'line': b'running install_egg_info\n'}
+[33.282188] (simple_msg) StdoutLine: {'line': b'Copying ../build/simple_msg/simple_msg.egg-info to /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/python3.8/site-packages/simple_msg-0.0.0-py3.8.egg-info\n'}
+[33.306021] (-) TimerEvent: {}
+[33.406465] (-) TimerEvent: {}
+[33.444111] (simple_msg) StdoutLine: {'line': b'running install_scripts\n'}
+[33.498525] (simple_msg) StdoutLine: {'line': b'Installing publish_node script to /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simple_msg/lib/simple_msg\n'}
+[33.506490] (simple_msg) StdoutLine: {'line': b"writing list of installed files to '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simple_msg/install.log'\n"}
+[33.507145] (-) TimerEvent: {}
+[33.528817] (simple_msg) CommandEnded: {'returncode': 0}
+[33.607267] (-) TimerEvent: {}
+[33.707683] (-) TimerEvent: {}
+[33.711913] (simple_msg) JobEnded: {'identifier': 'simple_msg', 'rc': 0}
+[33.719799] (-) EventReactorShutdown: {}

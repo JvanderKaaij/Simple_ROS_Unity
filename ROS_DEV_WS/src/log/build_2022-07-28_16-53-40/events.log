@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000469] (-) JobUnselected: {'identifier': 'ros_tcp_endpoint'}
+[0.001454] (-) JobUnselected: {'identifier': 'simpleMSG'}
+[0.001715] (simpleInterface) JobQueued: {'identifier': 'simpleInterface', 'dependencies': OrderedDict()}
+[0.001939] (simpleInterface) JobStarted: {'identifier': 'simpleInterface'}
+[0.058648] (simpleInterface) JobProgress: {'identifier': 'simpleInterface', 'progress': 'cmake'}
+[0.070740] (simpleInterface) Command: {'cmd': ['/usr/bin/cmake', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simpleInterface', '-DCMAKE_INSTALL_PREFIX=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/install/simpleInterface'], 'cwd': '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simpleInterface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joey'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{5a069d55-87bd-57cf-8a07-2726b203d3e5}'), ('HOME', '/home/joey'), ('OLDPWD', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joey'), ('NAME', 'VIVE-PC'), ('WSL_INTEROP', '/run/WSL/58_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/d/Oculus/Support/oculus-runtime:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/TortoiseGit/bin:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/d/Program Files/Git/cmd:/mnt/d/Program Files/Git/mingw64/bin:/mnt/d/Program Files/Git/usr/bin:/mnt/d/Users/Sandro Massa/Programs/Python37/Scripts/:/mnt/d/Users/Sandro Massa/Programs/Python37/:/mnt/d/Users/Sandro Massa/Code/vtk-git/install-8.1.2/bin:/mnt/d/Users/Sandro Massa/Programs/Python37/Lib/site-packages:/mnt/d/Users/Sandro Massa/Programs/Python37/Lib/site-packages/vtk:/mnt/d/yazhou/cmake/cmake-3.23.1/bin:/mnt/d/yazhou/Archive_Master_Thesis/Code:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Go/bin:/mnt/c/Users/Joey/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Users/Joey/go/bin:/mnt/d/UserProjects/Joey/anaconda3/condabin:/snap/bin'), ('WT_SESSION', '509dfe3b-f755-4f6a-adad-6d1d2a691929'), ('DISPLAY', '172.17.240.1:0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simpleInterface'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint/lib/python3.8/site-packages:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/ros_tcp_endpoint:/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG:/opt/ros/foxy')]), 'shell': False}
+[0.098661] (-) TimerEvent: {}
+[0.125465] (simpleInterface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.198787] (-) TimerEvent: {}
+[0.236680] (simpleInterface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.298896] (-) TimerEvent: {}
+[0.399323] (-) TimerEvent: {}
+[0.499783] (-) TimerEvent: {}
+[0.600256] (-) TimerEvent: {}
+[0.700722] (-) TimerEvent: {}
+[0.758049] (simpleInterface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.800826] (-) TimerEvent: {}
+[0.901289] (-) TimerEvent: {}
+[1.001748] (-) TimerEvent: {}
+[1.014839] (simpleInterface) StderrLine: {'line': b'WARNING: Package name "simpleInterface" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[1.029405] (simpleInterface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.050059] (simpleInterface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.052862] (simpleInterface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.101891] (-) TimerEvent: {}
+[1.202410] (-) TimerEvent: {}
+[1.302880] (-) TimerEvent: {}
+[1.403349] (-) TimerEvent: {}
+[1.503813] (-) TimerEvent: {}
+[1.604311] (-) TimerEvent: {}
+[1.704826] (-) TimerEvent: {}
+[1.805329] (-) TimerEvent: {}
+[1.905799] (-) TimerEvent: {}
+[2.006338] (-) TimerEvent: {}
+[2.106846] (-) TimerEvent: {}
+[2.207328] (-) TimerEvent: {}
+[2.307918] (-) TimerEvent: {}
+[2.408474] (-) TimerEvent: {}
+[2.509176] (-) TimerEvent: {}
+[2.609761] (-) TimerEvent: {}
+[2.710365] (-) TimerEvent: {}
+[2.810901] (-) TimerEvent: {}
+[2.911604] (-) TimerEvent: {}
+[3.012091] (-) TimerEvent: {}
+[3.112531] (-) TimerEvent: {}
+[3.212978] (-) TimerEvent: {}
+[3.313472] (-) TimerEvent: {}
+[3.413981] (-) TimerEvent: {}
+[3.514476] (-) TimerEvent: {}
+[3.614937] (-) TimerEvent: {}
+[3.715401] (-) TimerEvent: {}
+[3.815928] (-) TimerEvent: {}
+[3.916447] (-) TimerEvent: {}
+[4.016931] (-) TimerEvent: {}
+[4.117445] (-) TimerEvent: {}
+[4.217956] (-) TimerEvent: {}
+[4.318426] (-) TimerEvent: {}
+[4.418983] (-) TimerEvent: {}
+[4.519516] (-) TimerEvent: {}
+[4.620050] (-) TimerEvent: {}
+[4.720537] (-) TimerEvent: {}
+[4.821010] (-) TimerEvent: {}
+[4.921481] (-) TimerEvent: {}
+[5.021938] (-) TimerEvent: {}
+[5.122407] (-) TimerEvent: {}
+[5.222870] (-) TimerEvent: {}
+[5.323350] (-) TimerEvent: {}
+[5.423936] (-) TimerEvent: {}
+[5.524471] (-) TimerEvent: {}
+[5.624918] (-) TimerEvent: {}
+[5.725368] (-) TimerEvent: {}
+[5.822718] (simpleInterface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.825498] (-) TimerEvent: {}
+[5.925970] (-) TimerEvent: {}
+[5.994087] (simpleInterface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[6.026099] (-) TimerEvent: {}
+[6.126622] (-) TimerEvent: {}
+[6.227076] (-) TimerEvent: {}
+[6.327582] (-) TimerEvent: {}
+[6.428062] (-) TimerEvent: {}
+[6.528580] (-) TimerEvent: {}
+[6.627524] (simpleInterface) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[6.628424] (simpleInterface) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[6.629137] (-) TimerEvent: {}
+[6.629424] (simpleInterface) StderrLine: {'line': b'  simpleInterface --arguments-file\n'}
+[6.630146] (simpleInterface) StderrLine: {'line': b'  /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simpleInterface/rosidl_adapter__arguments__simpleInterface.json\n'}
+[6.630820] (simpleInterface) StderrLine: {'line': b'  --output-dir\n'}
+[6.631494] (simpleInterface) StderrLine: {'line': b'  /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simpleInterface/rosidl_adapter/simpleInterface\n'}
+[6.632171] (simpleInterface) StderrLine: {'line': b'  --output-file\n'}
+[6.632970] (simpleInterface) StderrLine: {'line': b'  /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simpleInterface/rosidl_adapter/simpleInterface.idls)\n'}
+[6.633783] (simpleInterface) StderrLine: {'line': b'  returned error code 1:\n'}
+[6.634438] (simpleInterface) StderrLine: {'line': b'\n'}
+[6.635234] (simpleInterface) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[6.635883] (simpleInterface) StderrLine: {'line': b'\n'}
+[6.636552] (simpleInterface) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[6.637190] (simpleInterface) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[6.637872] (simpleInterface) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[6.638541] (simpleInterface) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[6.639191] (simpleInterface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[6.639835] (simpleInterface) StderrLine: {'line': b'      sys.exit(main())\n'}
+[6.640545] (simpleInterface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[6.641207] (simpleInterface) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[6.641906] (simpleInterface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[6.642655] (simpleInterface) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[6.643405] (simpleInterface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[6.644250] (simpleInterface) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[6.645010] (simpleInterface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string\n'}
+[6.645769] (simpleInterface) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[6.646482] (simpleInterface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__\n'}
+[6.647178] (simpleInterface) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[6.647990] (simpleInterface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 200, in __init__\n'}
+[6.648765] (simpleInterface) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[6.649452] (simpleInterface) StderrLine: {'line': b'\n'}
+[6.650149] (simpleInterface) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'simpleInterface' is an invalid\n"}
+[6.650939] (simpleInterface) StderrLine: {'line': b'  package name.  It should have the pattern\n'}
+[6.651674] (simpleInterface) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[6.652368] (simpleInterface) StderrLine: {'line': b'\n'}
+[6.652982] (simpleInterface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.653638] (simpleInterface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[6.654378] (simpleInterface) StderrLine: {'line': b'  CMakeLists.txt:37 (rosidl_generate_interfaces)\n'}
+[6.655033] (simpleInterface) StderrLine: {'line': b'\n'}
+[6.655706] (simpleInterface) StderrLine: {'line': b'\n'}
+[6.656462] (simpleInterface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.657332] (simpleInterface) StdoutLine: {'line': b'See also "/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/build/simpleInterface/CMakeFiles/CMakeOutput.log".\n'}
+[6.658861] (simpleInterface) CommandEnded: {'returncode': 1}
+[6.729289] (-) TimerEvent: {}
+[6.776028] (simpleInterface) JobEnded: {'identifier': 'simpleInterface', 'rc': 1}
+[6.787200] (-) EventReactorShutdown: {}

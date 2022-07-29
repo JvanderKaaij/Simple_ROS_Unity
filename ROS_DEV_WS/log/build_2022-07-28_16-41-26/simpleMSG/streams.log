@@ -1,0 +1,22 @@
+[2.388s] Invoking command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simpleMSG': PYTHONPATH=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simpleMSG build --build-base /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/simpleMSG/build install --prefix /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG --record /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/simpleMSG/install.log --single-version-externally-managed
+[2.947s] running egg_info
+[2.950s] writing ../../build/simpleMSG/simpleMSG.egg-info/PKG-INFO
+[2.956s] writing dependency_links to ../../build/simpleMSG/simpleMSG.egg-info/dependency_links.txt
+[2.960s] writing entry points to ../../build/simpleMSG/simpleMSG.egg-info/entry_points.txt
+[2.965s] writing requirements to ../../build/simpleMSG/simpleMSG.egg-info/requires.txt
+[2.967s] writing top-level names to ../../build/simpleMSG/simpleMSG.egg-info/top_level.txt
+[3.047s] reading manifest file '../../build/simpleMSG/simpleMSG.egg-info/SOURCES.txt'
+[3.096s] writing manifest file '../../build/simpleMSG/simpleMSG.egg-info/SOURCES.txt'
+[3.099s] running build
+[3.100s] running build_py
+[3.122s] running install
+[3.127s] running install_lib
+[3.201s] running install_data
+[3.224s] copying package.xml -> /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/share/simpleMSG
+[3.236s] running install_egg_info
+[3.246s] removing '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages/simpleMSG-0.0.0-py3.8.egg-info' (and everything under it)
+[3.293s] Copying ../../build/simpleMSG/simpleMSG.egg-info to /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages/simpleMSG-0.0.0-py3.8.egg-info
+[3.480s] running install_scripts
+[3.522s] Installing my_node script to /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/simpleMSG
+[3.531s] writing list of installed files to '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/simpleMSG/install.log'
+[3.561s] Invoked command in '/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/src/simpleMSG' returned '0': PYTHONPATH=/mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simpleMSG build --build-base /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/simpleMSG/build install --prefix /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/install/simpleMSG --record /mnt/d/UserProjects/Joey/Unity/Simple-Ros-Communication/ROS_DEV_WS/build/simpleMSG/install.log --single-version-externally-managed
